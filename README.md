@@ -1,6 +1,6 @@
-# jq-live README
+# jq-live
 
-This is the README for your extension "jq-live". After writing up a brief description, we recommend including the following sections.
+jq live is a vscode extension for using jq to query json file.
 
 ## Features
 
@@ -12,20 +12,9 @@ Live query with [jq](https://stedolan.github.io/jq) query
 
 vscode >= 1.76.0
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+none
 
 ## Release Notes
 

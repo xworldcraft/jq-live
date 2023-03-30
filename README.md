@@ -4,7 +4,9 @@ This is the README for your extension "jq-live". After writing up a brief descri
 
 ## Features
 
-working...
+Live query with [jq](https://stedolan.github.io/jq) grammer
+
+![](screenshots/SCR-20230330-oukm.png)
 
 ## Requirements
 

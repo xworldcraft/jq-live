@@ -6,7 +6,7 @@ This is the README for your extension "jq-live". After writing up a brief descri
 
 Live query with [jq](https://stedolan.github.io/jq) query
 
-![](screenshots/SCR-20230330-oukm.png)
+![](https://github.com/xworldcraft/jq-live/blob/main/screenshots/SCR-20230330-oukm.png)
 
 ## Requirements
 

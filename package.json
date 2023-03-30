@@ -2,6 +2,7 @@
   "name": "jq-live",
   "displayName": "jq live",
   "description": "jq extension of vscode",
+  "publisher": "trganda",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.76.0"

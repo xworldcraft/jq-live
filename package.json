@@ -14,10 +14,32 @@
   "contributes": {
     "commands": [
       {
-        "command": "jq-live.helloWorld",
-        "title": "Hello World"
+        "command": "jq-live.jq",
+        "title": "Jq"
       }
-    ]
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "jq-live.jq",
+          "when": "resourceLangId == json",
+          "group": "navigation"
+        }
+      ],
+      "editor/context": [
+        {
+          "command": "jq-live.jq",
+          "group": "z_commands",
+          "when": "resourceLangId == json"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "jq-live.jq",
+          "when": "resourceLangId == json"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
@@ -45,5 +67,8 @@
     "webpack": "^5.76.3",
     "webpack-cli": "^5.0.1",
     "@vscode/test-electron": "^2.3.0"
+  },
+  "dependencies": {
+    "jqdash": "^1.0.2"
   }
 }

@@ -2,15 +2,11 @@
 
 jq live is a vscode extension for using jq to query json file.
 
-## Features
+## Usage
 
 Live query with [jq](https://stedolan.github.io/jq) query
 
-![](https://github.com/xworldcraft/jq-live/blob/main/screenshots/SCR-20230330-oukm.png)
-
-## Requirements
-
-vscode >= 1.76.0
+![usage](screenshots/SCR-20230330-oukm.png)
 
 ## Known Issues
 
@@ -25,4 +21,9 @@ Users appreciate release notes as you update your extension.
 Initial release of jq-live,
 
 * live jq query
+
+### 0.1.1
+
+* add icon
+* fix image of feature not show
 

@@ -12,7 +12,6 @@ async function execjq(jsonText: string, query: string): Promise<string> {
     const { jq } = module;
     let rets = jq(jsonText, query, ["-M"]);
     ret = rets.stdout;
-    console.log(ret);
   });
 
   return ret;

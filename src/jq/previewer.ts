@@ -13,14 +13,11 @@ const showPreview = (
   const { document } = window.activeTextEditor;
   const { languageId, uri: documentUri } = document;
 
-  console.log(documentUri.path);
-
   if (languageId !== "json") {
     return;
   }
 
   const cmd = await pickFilter(documentUri, histories);
-  console.log(cmd);
 };
 
 export default showPreview;

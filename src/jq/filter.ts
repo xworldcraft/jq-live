@@ -32,7 +32,6 @@ async function pickFilter(uri: Uri, histories: WeakMap<Uri, QuickPickItem[]>) {
 
           // pass result to provicer
           nuri = nuri.with({query: encodedRet});
-          console.log(nuri);
           
           const ndoc = await workspace.openTextDocument(nuri);
           await window.showTextDocument(ndoc, {
